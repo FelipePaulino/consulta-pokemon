@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders Input component with error 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.c2 {
+  padding: 13px 14px;
+  border: 1px solid #D5D5D5;
+  width: 265px;
+  border-radius: 8px;
+}
+
+.c1 {
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.c3 {
+  color: red;
+  font-size: 8px;
+}
+
+<div
+  class="c0"
+  data-testid="input-styled-component"
+>
+  <label
+    class="c1"
+    for="email"
+  >
+    Email
+  </label>
+  <input
+    class="c2"
+    error="Invalid email address"
+    id="email"
+    label="Email"
+  />
+  <span
+    class="c3"
+    data-testid="error-message"
+  >
+    Invalid email address
+  </span>
+</div>
+`;
+
+exports[`Input component renders Input component with label and no error 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.c2 {
+  padding: 13px 14px;
+  border: 1px solid #D5D5D5;
+  width: 265px;
+  border-radius: 8px;
+}
+
+.c1 {
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+<div
+  class="c0"
+  data-testid="input-styled-component"
+>
+  <label
+    class="c1"
+    for="username"
+  >
+    Username
+  </label>
+  <input
+    class="c2"
+    id="username"
+    label="Username"
+  />
+</div>
+`;

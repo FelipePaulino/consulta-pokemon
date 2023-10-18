@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component renders Container component with custom stylepattern 1`] = `
+.c0 {
+  width: 100%;
+  background-color: #E40F0F;
+  color: #FFFFFF;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 32px 106px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+<div
+  class="c0"
+  data-testid="container-styled"
+  stylepattern="primary"
+>
+  <div
+    class="c1"
+  >
+    Hello World!
+  </div>
+</div>
+`;
+
+exports[`Container component renders Container component with default stylepattern 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 32px 106px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+<div
+  class="c0"
+  data-testid="container-styled"
+  stylepattern="white"
+>
+  <div
+    class="c1"
+  >
+    Hello, World!
+  </div>
+</div>
+`;

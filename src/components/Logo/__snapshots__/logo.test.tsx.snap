@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component renders Logo component with showLogo as true 1`] = `
+.c0 {
+  display: flex;
+  background-color: #E40F0F;
+  padding: 13px;
+  border-radius: 50px;
+  align-items: center;
+  cursor: pointer;
+  height: 60px;
+  width: 259px;
+  transition: all 0.5s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+
+.c1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 50px;
+  opacity: 1;
+  transition: all 0.5s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+
+<div
+  class="c0"
+  data-testid="logo-container"
+  showtext="true"
+>
+  <div>
+    <img
+      alt="Pokebola"
+      data-nimg="1"
+      decoding="async"
+      height="34"
+      loading="lazy"
+      src="/images/white-pokeball.svg"
+      srcset="/images/white-pokeball.svg 1x, /images/white-pokeball.svg 2x"
+      style="color: transparent;"
+      width="34"
+    />
+  </div>
+  <h1
+    class="c1"
+    data-testid="logo-text"
+  >
+    Centro Pokémon 
+  </h1>
+</div>
+`;

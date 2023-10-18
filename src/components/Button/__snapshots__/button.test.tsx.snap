@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component primary style renders Button component with primary style 1`] = `
+.c0 {
+  background-color: #E40F0F;
+  color: #FFFFFF;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  width: fit-content;
+}
+
+.c0:hover {
+  background-color: #FFFFFF;
+  color: #E40F0F;
+  border: 0.5px solid #E40F0F;
+}
+
+.c0::disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+<button
+  class="c0"
+  data-testid="button-styled-component"
+  stylepattern="primary"
+>
+  test
+</button>
+`;
+
+exports[`Button component primary style renders Button component with secondary style 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  color: #1D1D1D;
+  border: 1px solid #1D1D1D;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 13px 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.c0:hover {
+  background-color: #1D1D1D;
+  color: #FFFFFF;
+}
+
+.c0::disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+<button
+  class="c0"
+  data-testid="button-styled-component"
+  stylepattern="secondary"
+>
+  test
+</button>
+`;

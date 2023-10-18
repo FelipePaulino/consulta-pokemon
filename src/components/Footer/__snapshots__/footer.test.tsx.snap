@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders Footer 1`] = `
+.c0 {
+  background-color: #1D1D1D;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 31px;
+}
+
+<footer
+  class="c0"
+  data-testid="footer-component"
+>
+  <p>
+    Todas as marcas e ilustrações utilizadas são de seus resepctivos donos.
+  </p>
+</footer>
+`;
